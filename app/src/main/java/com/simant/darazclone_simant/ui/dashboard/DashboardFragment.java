@@ -73,15 +73,13 @@ public class DashboardFragment extends Fragment {
             @Override
             public void onResponse(Call<ProductCollectionModal> call, Response<ProductCollectionModal> response) {
                 System.out.println("Collection list " + response.body());
-                ProductAdapter ProductAdapter = new ProductAdapter(getActivity(),response.body().darazProductModalClasses());
+
+                ProductAdapter recyclerviewAdapter = new ProductAdapter(getActivity(),response.body().darazProductModalClasses());
                 RecyclerView.LayoutManager mlayoutManager = new GridLayoutManager(getContext(), 2);
-                // elevation design
-                LinearLayoutManager horizontalLayoutManager = new LinearLayoutManager(getActivity(),
-                        LinearLayoutManager.VERTICAL, false);
-                recyclerView_product.setLayoutManager(horizontalLayoutManager);
+                recyclerView_product.setLayoutManager(mlayoutManager);
                 recyclerView_product.setHasFixedSize(true);
-                recyclerView_product.setAdapter(ProductAdapter);
-                ProductAdapter.notifyDataSetChanged();
+                recyclerView_product.setAdapter(recyclerviewAdapter);
+                recyclerviewAdapter.notifyDataSetChanged();
             }
 
             @Override
