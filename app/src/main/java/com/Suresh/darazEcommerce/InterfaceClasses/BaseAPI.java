@@ -1,4 +1,4 @@
-package com.simant.darazclone_simant.InterfaceClasses;
+package com.Suresh.darazEcommerce.InterfaceClasses;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

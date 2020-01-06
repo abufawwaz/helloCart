@@ -1,4 +1,4 @@
-package com.simant.darazclone_simant.ui.notifications;
+package com.Suresh.darazEcommerce.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -21,7 +21,7 @@
         android:layout_width="353dp"
         android:layout_height="41dp"
         android:layout_marginTop="28dp"
-        android:text="Full Source code available at: https://github.com/SimantDhakal/"
+        android:text="Full Source code available at: https://github.com/acesur/"
         android:textAlignment="center"
         android:textColor="@color/colorLink"
         android:textSize="16dp"

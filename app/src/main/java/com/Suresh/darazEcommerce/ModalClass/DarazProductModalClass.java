@@ -1,4 +1,4 @@
-package com.simant.darazclone_simant.ModalClass;
+package com.Suresh.darazEcommerce.ModalClass;
 
 public class DarazProductModalClass {
     private String product_id;

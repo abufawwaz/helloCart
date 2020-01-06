@@ -1,4 +1,4 @@
-package com.simant.darazclone_simant.AdapterClass;
+package com.Suresh.darazEcommerce.AdapterClass;
 
 //public class ProductAdapter {
 //}
@@ -14,8 +14,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.simant.darazclone_simant.ModalClass.DarazProductModalClass;
-import com.simant.darazclone_simant.R;
+import com.Suresh.darazEcommerce.ModalClass.DarazProductModalClass;
+import com.Suresh.darazEcommerce.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

@@ -1,22 +1,19 @@
-package com.simant.darazclone_simant.AdapterClass;
+package com.Suresh.darazEcommerce.AdapterClass;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.simant.darazclone_simant.ModalClass.FlashModalClass;
-import com.simant.darazclone_simant.R;
+import com.Suresh.darazEcommerce.ModalClass.FlashModalClass;
+import com.Suresh.darazEcommerce.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class FlashAdapter extends RecyclerView.Adapter<FlashAdapter.ContactsViewHolder>{
 

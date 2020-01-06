@@ -1,28 +1,24 @@
-package com.simant.darazclone_simant.ui.dashboard;
+package com.Suresh.darazEcommerce.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.simant.darazclone_simant.AdapterClass.FlashAdapter;
-import com.simant.darazclone_simant.AdapterClass.ProductAdapter;
-import com.simant.darazclone_simant.InterfaceClasses.BaseAPI;
-import com.simant.darazclone_simant.InterfaceClasses.RetrofitInterface;
-import com.simant.darazclone_simant.ModalClass.DarazProductModalClass;
-import com.simant.darazclone_simant.ModalClass.FlashModalClass;
-import com.simant.darazclone_simant.ModalClass.ProductCollectionModal;
-import com.simant.darazclone_simant.R;
+import com.Suresh.darazEcommerce.AdapterClass.FlashAdapter;
+import com.Suresh.darazEcommerce.AdapterClass.ProductAdapter;
+import com.Suresh.darazEcommerce.InterfaceClasses.BaseAPI;
+import com.Suresh.darazEcommerce.InterfaceClasses.RetrofitInterface;
+import com.Suresh.darazEcommerce.ModalClass.FlashModalClass;
+import com.Suresh.darazEcommerce.ModalClass.ProductCollectionModal;
+import com.Suresh.darazEcommerce.R;
 
 import java.util.ArrayList;
 import java.util.List;

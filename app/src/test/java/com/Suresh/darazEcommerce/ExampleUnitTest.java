@@ -1,4 +1,4 @@
-package com.simant.darazclone_simant;
+package com.Suresh.darazEcommerce;
 
 import org.junit.Test;
 
