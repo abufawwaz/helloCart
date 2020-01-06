@@ -1,4 +1,4 @@
-# DarazClone_Simant
+# darazEcommerce
 
 # Grade -> Dependencies 
 implementation 'androidx.recyclerview:recyclerview:1.0.0'
